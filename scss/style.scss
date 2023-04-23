@@ -1,0 +1,121 @@
+$font-path: '../fonts/';
+
+@font-face {
+    font-family: "lato_regular";
+    src: url(#{$font-path}lato_regular.ttf);
+}
+
+@font-face {
+    font-family: "lato_bold";
+    src: url(#{$font-path}lato_bold.ttf);
+}
+
+body {
+    background-color: rgb(4 25 20);
+    color: white;
+}
+
+.navbar {
+    background-color: #214029;
+    width: 100%;
+    /* height: 200px auto; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    border-radius: 0 0 15px 15px;
+    border-bottom: 0.5px solid #FFF8DE;
+
+    &Style {
+        font-family: 'lato_bold';
+        color: #f5f2ef;
+        font-size: 19px;
+    }
+}
+
+.buttonStyle {
+    background-color: #e34248;
+    color: #FFF8DE;
+    border: none;
+    border-radius: 20px;
+}
+
+.imgStyle {
+    border-radius: 20px;
+    border: 2px solid #325935;
+}
+
+h1 {
+    font-family: 'lato_bold';
+    color: #f5f2ef;
+    font-size: 65px;
+}
+
+p {
+    font-family: 'lato_regular';
+    color: rgba(245, 242, 239, 0.7);
+    font-size: 19px;
+}
+
+.footerStyle {
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    background-color: #214029;
+    font-size: 16px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0 0;
+    border-top: 2px solid #FFF8DE;
+
+    h3 {
+        font-family: 'lato_regular';
+        color: rgba(245, 242, 239, 0.7);
+        font-size: 14px;
+    }
+}
+
+.custom-title {
+    font-family: 'lato_bold';
+    color: #FFF8DE;
+    font-size: 36px;
+}
+
+.custom-text {
+    font-family: 'lato_regular';
+    color: rgba(245, 242, 239, 0.7);
+    font-size: 17px;
+}
+
+.custom-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imgAboutSyle {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #325935;
+}
+
+.card-animation {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background-color: #325935;
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+}
+
+.card {
+    border-radius: 20px;
+
+    // &Style {
+    //     // width: 500px;
+    //     // height: 450px;
+    // }
+}
