@@ -35,23 +35,6 @@ body {
   border-radius: 20px;
 }
 
-.imgStyle {
-  border-radius: 20px;
-  border: 2px solid #325935;
-}
-
-h1 {
-  font-family: "lato_bold";
-  color: #f5f2ef;
-  font-size: 65px;
-}
-
-p {
-  font-family: "lato_regular";
-  color: rgba(245, 242, 239, 0.7);
-  font-size: 19px;
-}
-
 .footerStyle {
   height: 150px;
   margin: 0;
@@ -67,6 +50,23 @@ p {
   font-family: "lato_regular";
   color: rgba(245, 242, 239, 0.7);
   font-size: 14px;
+}
+
+.imgStyle {
+  border-radius: 20px;
+  border: 2px solid #325935;
+}
+
+h1 {
+  font-family: "lato_bold";
+  color: #f5f2ef;
+  font-size: 65px;
+}
+
+p {
+  font-family: "lato_regular";
+  color: rgba(245, 242, 239, 0.7);
+  font-size: 19px;
 }
 
 .custom-title {
