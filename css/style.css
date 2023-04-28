@@ -101,19 +101,7 @@
 
 body {
   background-color: rgb(4, 25, 20);
-  color: white;
-}
-
-h1 {
-  font-family: "lato_bold", sans-serif;
   color: #f5f2ef;
-  font-size: 65px;
-}
-
-p {
-  font-family: "lato_regular", sans-serif;
-  color: rgba(245, 242, 239, 0.7);
-  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

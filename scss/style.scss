@@ -19,18 +19,5 @@ $font-path: '../fonts/';
 
 body {
     background-color: $bg-principal;
-    color: white;
-}
-
-
-h1 {
-    font-family: $ff-bold;
-    color: #f5f2ef;
-    font-size: 65px;
-}
-
-p {
-    font-family: $ff-regular;
-    color: rgba(245, 242, 239, 0.7);
-    font-size: 18px;
+    color: $white;
 }
