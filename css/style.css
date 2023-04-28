@@ -69,6 +69,24 @@
   border-radius: 20px;
 }
 
+.custom-title {
+  font-family: "lato_bold";
+  color: #FFF8DE;
+  font-size: 36px;
+}
+
+.custom-text {
+  font-family: "lato_regular";
+  color: rgba(245, 242, 239, 0.7);
+  font-size: 17px;
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 .imgAboutSyle {
   width: 800px;
   height: auto;
@@ -96,24 +114,6 @@ p {
   font-family: "lato_regular", sans-serif;
   color: rgba(245, 242, 239, 0.7);
   font-size: 18px;
-}
-
-.custom-title {
-  font-family: "lato_bold";
-  color: #FFF8DE;
-  font-size: 36px;
-}
-
-.custom-text {
-  font-family: "lato_regular";
-  color: rgba(245, 242, 239, 0.7);
-  font-size: 17px;
-}
-
-.custom-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
