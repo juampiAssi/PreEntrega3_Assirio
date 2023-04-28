@@ -17,17 +17,11 @@ $font-path: '../fonts/';
 @import "card";
 @import "imgStyles";
 
-
 body {
     background-color: $bg-principal;
     color: white;
 }
 
-
-.imgStyle {
-    border-radius: 20px;
-    border: 2px solid #325935;
-}
 
 h1 {
     font-family: 'lato_bold';
