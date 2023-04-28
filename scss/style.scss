@@ -24,15 +24,15 @@ body {
 
 
 h1 {
-    font-family: 'lato_bold';
+    font-family: $ff-bold;
     color: #f5f2ef;
     font-size: 65px;
 }
 
 p {
-    font-family: 'lato_regular';
+    font-family: $ff-regular;
     color: rgba(245, 242, 239, 0.7);
-    font-size: 19px;
+    font-size: 18px;
 }
 
 

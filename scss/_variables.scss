@@ -2,3 +2,15 @@
 $bg-principal: rgb(4 25 20);
 
 //FUENTES
+@font-face {
+    font-family: "lato_regular";
+    src: url(#{$font-path}lato_regular.ttf);
+}
+
+@font-face {
+    font-family: "lato_bold";
+    src: url(#{$font-path}lato_bold.ttf);
+}
+
+$ff-regular: 'lato_regular', sans-serif;
+$ff-bold: 'lato_bold', sans-serif;
