@@ -10,15 +10,17 @@ $font-path: '../fonts/';
     src: url(#{$font-path}lato_bold.ttf);
 }
 
-body {
-    background-color: rgb(4 25 20);
-    color: white;
-}
 
 @import "variables";
 @import "header";
 @import "footer";
 @import "card";
+
+
+body {
+    background-color: $bg-principal;
+    color: white;
+}
 
 
 .imgStyle {

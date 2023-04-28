@@ -6,11 +6,6 @@
   font-family: "lato_bold";
   src: url(../fonts/lato_bold.ttf);
 }
-body {
-  background-color: rgb(4, 25, 20);
-  color: white;
-}
-
 .navbar {
   background-color: #214029;
   width: 100%;
@@ -64,6 +59,11 @@ body {
 
 .card {
   border-radius: 20px;
+}
+
+body {
+  background-color: rgb(4, 25, 20);
+  color: white;
 }
 
 .imgStyle {
