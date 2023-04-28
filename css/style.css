@@ -52,6 +52,20 @@ body {
   font-size: 14px;
 }
 
+.card-animation {
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  background-color: #325935;
+}
+.card-animation:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card {
+  border-radius: 20px;
+}
+
 .imgStyle {
   border-radius: 20px;
   border: 2px solid #325935;
@@ -92,20 +106,6 @@ p {
   height: auto;
   border-radius: 10px;
   border: 2px solid #325935;
-}
-
-.card-animation {
-  position: relative;
-  transition: all 0.2s ease-in-out;
-  background-color: #325935;
-}
-.card-animation:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  transform: translateY(-5px);
-}
-
-.card {
-  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

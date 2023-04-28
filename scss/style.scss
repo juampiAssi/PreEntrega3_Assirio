@@ -15,8 +15,11 @@ body {
     color: white;
 }
 
+@import "variables";
 @import "header";
 @import "footer";
+@import "card";
+
 
 .imgStyle {
     border-radius: 20px;
@@ -59,24 +62,4 @@ p {
     height: auto;
     border-radius: 10px;
     border: 2px solid #325935;
-}
-
-.card-animation {
-    position: relative;
-    transition: all 0.2s ease-in-out;
-    background-color: #325935;
-
-    &:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-        transform: translateY(-5px);
-    }
-}
-
-.card {
-    border-radius: 20px;
-
-    // &Style {
-    //     // width: 500px;
-    //     // height: 450px;
-    // }
 }
