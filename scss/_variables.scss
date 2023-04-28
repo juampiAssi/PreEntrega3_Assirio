@@ -17,3 +17,7 @@ $textColor: rgba(245, 242, 239, 0.7);
 
 $ff-regular: 'lato_regular', sans-serif;
 $ff-bold: 'lato_bold', sans-serif;
+
+@mixin border-radius {
+    border-radius: 0px 0px 15px 15px;
+}
